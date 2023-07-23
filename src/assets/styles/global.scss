@@ -1,0 +1,67 @@
+@import "./define.scss";
+@import "./element.scss";
+@import "./component.scss";
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body{
+  height: 100%;
+  background: #f5f7fa;
+}
+
+.g-spacer{
+  margin-bottom: 16px;
+}
+
+.g-content{
+  padding: 20px;
+}
+
+.g-scroll-content{
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.g-title-center{
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: $text-dark;
+}
+
+.middle{
+  top:50%!important;
+  margin-top:-25px!important
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+.el-loading-mask{
+  z-index: 99999!important
+}
+
+#defaultCanvas0{
+  display: none;
+}
+.el-message-box{
+  button{
+    border: 1px solid $green;
+    background: #ffffff;
+    &:hover{
+      color: #ffffff;
+      background: $green;
+    }
+    .el-button--primary{
+      color: #ffffff;
+      background: $green;
+    }   
+  }
+}

@@ -1,0 +1,224 @@
+// form
+.common-form{
+  padding: 20px 0;
+  margin: 0 60px;
+
+  &.common-form-dlg{
+    padding: 20px;
+    margin: 0px;
+  }
+
+  .common-form-control{
+    padding: 20px 0px 60px 0px;
+    border-top: 1px solid $border;
+  }
+
+  .common-form-dlg-btn{
+    color: $text;
+    width: 350px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 4px;
+    border: 1px solid $border;
+    background: #fff;
+    padding: 0 20px;
+    font-size: 12px;
+  } 
+  
+  .el-input{
+    input{
+      max-width: 777px!important;
+    }
+  }
+  
+  .el-textarea{
+    textarea{
+      max-width: 777px!important;
+    }
+  }
+
+  .form-tree{
+    max-width: 777px;
+    border: 1px solid $border;
+    border-radius: 4px;
+    overflow-y: auto;
+    height: 400px;
+  }
+}
+
+.common-grid-form{
+  margin-bottom: 20px;
+  
+
+  .common-grid-title{
+    font-weight: bold;
+    color: $green;
+    font-size: 14px;
+    padding: 12px 0;
+  }
+
+  .common-grid-body{
+    border: 1px solid #bbe2c8;
+  }
+
+  .el-form-item{
+    margin-bottom: 0px!important;
+    border-bottom: 1px solid #bbe2c8;
+
+    &:last-child{
+      border: none;
+    }
+  }
+
+  .el-form-item__label{
+    width: 100%;
+    background: #eaf6ee!important;
+    padding: 0 10px!important;
+    line-height: 36px!important;
+    border-bottom: 1px solid #bbe2c8;
+  }
+
+  .el-form-item__content{
+    padding: 0px 10px!important;
+
+    .el-input{
+      width: 480px!important;
+    }
+  }
+
+}
+
+
+.eval-form{
+  
+  min-width: 1000px;
+  .eval-form-title{
+    font-weight: bold;
+    color: $green;
+    font-size: 14px;
+    padding: 12px 0;
+  }
+  .eval-form-table{
+    border: 1px solid #bbe2c8;
+    >.head{
+      background: #f8fff3;
+      font-size: 14px;
+      
+      font-weight: bold;
+      border-bottom: 1px solid #bbe2c8;
+      white-space: nowrap;
+
+      >span{
+        display: inline-block;
+        height: 100%;
+        padding: 12px 12px;
+        border-right: 1px solid #bbe2c8;
+
+        &:last-child{
+          border: none;
+        }
+
+        &:nth-child(1){
+          width: 50%;
+        }
+        &:nth-child(2){
+          width: 10%;
+        }
+        &:nth-child(3){
+          width: 40%;
+        }
+      }
+    }
+    >.body{
+      >.primary{
+        >.title{
+          background: #eaf6ee;
+          padding: 12px 12px;
+          font-size: 14px;
+          font-weight: bold;
+          color: $green;
+          border-bottom: 1px solid #bbe2c8;
+        }
+        >.item{
+          font-size: 14px;
+          border-bottom: 1px solid #bbe2c8;
+          height: 100%;
+          
+          &:hover{
+            background: #f8fff3;
+          }
+
+          >table{
+            width: 100%;
+            border: none;
+            border-spacing: 0;
+            td{
+              border-right: 1px solid #bbe2c8;
+              padding: 12px 12px;
+              vertical-align: top;
+              &:last-child{
+                border: none;
+              }
+              &:nth-child(1){
+                width: 50%;
+              }
+              &:nth-child(2){
+                width: 10%;
+                color: $green;
+              }
+              &:nth-child(3){
+                width: 40%;
+                .el-radio-group{
+                  line-height: 25px;
+                }
+              }
+            }
+          }
+        }
+        >.secondary{
+          >.title{
+            background: #eee;
+            padding: 12px 24px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #666;
+            border-bottom: 1px solid #bbe2c8;
+          }
+          >.item{
+            font-size: 14px;
+            border-bottom: 1px solid #bbe2c8;
+            height: 100%;
+            
+            &:hover{
+              background: #f8fff3;
+            }
+
+            >table{
+              width: 100%;
+              border: none;
+              border-spacing: 0;
+              td{
+                border-right: 1px solid #bbe2c8;
+                padding: 12px 12px;
+                &:last-child{
+                  border: none;
+                }
+                &:nth-child(1){
+                  width: 50%;
+                  padding-left: 24px;
+                }
+                &:nth-child(2){
+                  width: 10%;
+                  color: $green;
+                }
+                &:nth-child(3){
+                  width: 40%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

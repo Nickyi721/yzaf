@@ -1,0 +1,70 @@
+@import "../../../assets/styles/define.scss";
+
+.compose-content{
+  padding-right: 100px;
+  max-width: 1000px;
+
+  .el-form-item__label{
+    color: #999!important;
+  }
+
+  .compose-content-title{
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+
+    text-align: center;
+  }
+
+  .compose-content-info{
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+    padding: 16px;
+  }
+
+  .compose-content-des{
+    border: 1px solid #eee;
+    padding: 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    background: #f7f7f7;
+    margin-bottom: 32px;
+
+    p{
+      padding: 4px 0px;
+      span{
+        &:first-child{
+          color: $green;
+        }
+      }
+    }
+  }
+  .compose-content-text{
+    margin-bottom: 16px;
+  }
+  .compose-content-attachment{
+    border: 1px solid #eee;
+    padding: 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    background: #f7f7f7;
+    margin-bottom: 32px;
+
+    div{
+      margin-bottom: 8px;
+      color: $green;
+    }
+    p{
+      line-height: 24px;
+      span{
+        display: inline-block;
+        margin-right: 16px;
+      }
+    }
+  }
+
+  .compose-content-btns{
+    text-align: center;
+  }
+}

@@ -1,0 +1,52 @@
+// filter
+.common-filter{
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.04)!important;
+  border-bottom: 1px solid $border;
+  padding: 10px 0 0 10px!important;
+  background: #fff;
+  .filter-items{
+    button{
+      border-color: $green!important;
+      color: white!important;
+      background-color: $green!important;
+      &:hover{
+        color: $green!important;
+        background-color: white!important;
+      }
+    }
+    .el-input{
+      width: 192px;
+      margin-bottom: 10px!important;
+    }
+    .el-range-editor--mini.el-input__inner{
+      margin-bottom: 10px!important;
+    }
+
+    >.label{
+      font-size: 14px;
+      display: inline-block;
+      margin-right: 10px;
+      color: #666;
+    }
+
+    .spacer{
+      display: inline-block;
+      width: 10px;
+    }
+
+    >*{
+      margin-right: 5px;
+      // margin-bottom: 10px;
+      vertical-align: top;
+    }
+
+    >span{
+      height: 28px;
+      line-height: 28px;
+      font-size: 14px;
+    }
+  }
+  .filter-btn{
+    text-align: right;
+  }
+}
